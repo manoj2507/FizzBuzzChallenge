@@ -15,7 +15,7 @@ public class FizzBuzzTestNGTests {
 
     @BeforeClass
     public void display_list_after_fizzbuzz_logic_applied() {
-        System.out.print(fizzBuzz.display().toString());
+        System.out.print(fizzBuzz.display(100).toString());
     }
 
     @Test(description = "Validate FizzBuzz is returned for the number provided")

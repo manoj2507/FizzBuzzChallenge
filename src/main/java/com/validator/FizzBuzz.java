@@ -7,9 +7,9 @@ import java.util.List;
 
 public class FizzBuzz {
 
-    public  List<String> display() {
+    public  List<String> display(int count) {
         List<String> list = new ArrayList<>();
-        for (int num = 1; num <= 100; num++) {
+        for (int num = 1; num <= count; num++) {
             list.add(evaluate(num));
         }
         return list;
